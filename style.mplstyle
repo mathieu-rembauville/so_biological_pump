@@ -1,0 +1,9 @@
+mathtext.default : regular
+font.size : 8
+font.family : Arial
+pdf.fonttype : 42
+axes.linewidth : 0.5
+xtick.major.width : 0.5
+xtick.minor.width : 0.5
+ytick.major.width : 0.5
+ytick.minor.width : 0.5
