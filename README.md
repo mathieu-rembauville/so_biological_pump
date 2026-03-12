@@ -1,5 +1,8 @@
 # so_biological_pump
 
+Python scripts used to produce diatom transfer functions submitted to CLimate of the Past:
+"Southern Ocean biological pump over the last glacial cycle from new diatom transfer functions" by Rembauville and Pichat. https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6347/
+
 1_map.py : Produces the Southern Ocean Map with fronts, sediment traps and sediment cores locations
 
 2_calibration.py : Calibrate the transfer functions (MLR : multiple linear regression, PLSR : partial least square regression, GBR : gradient boosting regression) using the sediment trap data to reconstruct POC fluxes and PIC:POC export ratio.
