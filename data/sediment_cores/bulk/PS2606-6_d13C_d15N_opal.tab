@@ -1,0 +1,69 @@
+/* DATA DESCRIPTION:
+Citation:	Jacot des Combes, Hélène; Esper, Oliver; De La Rocha, Christina L; Abelmann, Andrea; Gersonde, Rainer; Yam, Ruth; Shemesh, Aldo (2008): Stable isotopes in opal of sediment core PS2606-6 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.693830, 
+	In supplement to: Jacot des Combes, H et al. (2008): Diatom d13C, d15N, and C/N since the Last Glacial Maximum in the Southern Ocean: Potential impact of species composition. Paleoceanography, 23(4), PA4209, https://doi.org/10.1029/2008PA001589
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -53.231660 * LONGITUDE: 40.801660
+	DATE/TIME START: 1994-05-11T00:00:00 * DATE/TIME END: 1994-05-11T00:00:00
+	MINIMUM DEPTH, sediment/rock: 0.03 m * MAXIMUM DEPTH, sediment/rock: 5.05 m
+Event(s):	PS2606-6 (PS30/144) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS2606-stationcard.pdf) * LATITUDE: -53.231660 * LONGITUDE: 40.801660 * DATE/TIME: 1994-05-11T00:00:00 * ELEVATION: -2545.0 m * Penetration: 15 m * Recovery: 12.19 m * LOCATION: Conrad Rise * CAMPAIGN: ANT-XI/4 (PS30) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (BGR type) (KL) * COMMENT: 13 core sections: 0-0.26, 0.26-1.26, 1.26-2.25, 2.25-3.24, 3.24-4.24, 4.24-5.24, 5.24-6.24, 6.24-7.24, 7.24-8.19, 8.19-9.19, 9.19-10.19, 10.19-11.19, 11.19-12.19 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	AGE [ka BP] (Age) * GEOCODE
+	δ13C, opal [‰ PDB] (δ13C opal) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	δ15N, opal [‰ air] (δ15N opal) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Carbon/Nitrogen ratio (C/N) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Calculated * COMMENT: opal
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	156 data points
+*/
+Depth sed [m]	Age [ka BP]	δ13C opal [‰ PDB]	δ15N opal [‰ air]	C/N
+0.03	1.93	-17.18	0.94	7.63
+0.11	2.20	-17.27	1.56	7.91
+0.18	2.22	-17.36	0.51	8.07
+0.27	2.54	-17.08	1.74	8.13
+0.35	2.83	-16.83	2.04	8.29
+0.45	3.19	-17.04	1.68	7.97
+0.55	3.55	-16.90	2.09	8.24
+0.65	3.90	-17.70	0.96	8.89
+0.75	4.26	-16.80	1.72	8.34
+0.85	4.62	-16.79	1.89	8.28
+0.95	4.97	-16.92	1.39	8.25
+1.05	5.33	-17.33	2.46	8.86
+1.15	5.69	-16.97	1.77	8.44
+1.25	6.05	-17.18	1.23	8.97
+1.35	6.22	-16.49	2.10	8.38
+1.45	6.32	-16.84	2.19	8.41
+1.55	6.42	-16.58	1.97	8.40
+1.65	6.52	-16.61	2.39	8.39
+1.75	6.62	-16.72	2.04	8.35
+1.85	6.72	-16.52	2.42	8.75
+1.95	6.82	-16.40	2.03	8.39
+2.05	6.92	-17.33	2.54	9.25
+2.15	7.02	-16.87	2.06	8.36
+2.24	7.10	-17.06	1.59	9.23
+2.35	7.24	-17.02	1.79	8.75
+2.45	7.37	-17.02	2.75	9.23
+2.55	7.50	-17.48	2.63	9.44
+2.65	7.63	-17.54	3.18	8.94
+2.72	7.72	-18.55	2.26	9.50
+2.85	8.35	-17.96	2.27	8.53
+2.95	8.94	-17.95	2.04	7.98
+3.09	9.77	-18.00	2.32	8.96
+3.15	10.12	-18.00	2.34	8.48
+3.25	10.71	-18.31	1.88	8.09
+3.35	11.30	-17.98	1.50	7.92
+3.45	13.09	-18.37	3.07	8.43
+3.55	14.53	-17.81	3.05	8.27
+3.65	15.10	-18.11	2.89	8.47
+3.75	15.68	-18.77	2.86	8.49
+3.85	16.25	-19.02	2.49	9.36
+3.95	16.83	-19.16	2.48	8.26
+4.05	17.40	-18.30	2.49	8.27
+4.15	17.98	-18.69	2.29	7.95
+4.25	18.55	-19.33	2.38	8.47
+4.35	19.05	-18.93	1.97	8.79
+4.45	19.53	-19.48	2.19	8.81
+4.55	20.01	-19.50	2.34	8.53
+4.65	20.49	-19.63	2.56	8.84
+4.75	20.97	-19.48	2.10	8.82
+4.85	21.45	-19.60	1.68	9.01
+4.95	21.93	-19.18	2.05	8.83
+5.05	22.41	-19.19	1.23	9.15

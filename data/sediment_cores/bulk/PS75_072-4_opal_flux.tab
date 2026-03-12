@@ -1,0 +1,93 @@
+/* DATA DESCRIPTION:
+Citation:	Studer, Anja S; Sigman, Daniel M; Martínez‐García, Alfredo; Benz, Verena; Winckler, Gisela; Kuhn, Gerhard; Esper, Oliver; Lamy, Frank; Jaccard, Samuel L; Wacker, Lukas; Oleynik, Sergey; Gersonde, Rainer; Haug, Gerald H (2015): Opal flux of sediment core PS75/072-4 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.848268, 
+	In supplement to: Studer, AS et al. (2015): Antarctic Zone nutrient conditions during the last two glacial cycles. Paleoceanography, 30(7), 845-862, https://doi.org/10.1002/2014PA002745
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -57.558500 * LONGITUDE: -151.219500
+	DATE/TIME START: 2009-12-29T21:50:00 * DATE/TIME END: 2009-12-29T21:50:00
+	MINIMUM DEPTH, sediment/rock: 0.01 m * MAXIMUM DEPTH, sediment/rock: 7.72 m
+Event(s):	PS75/072-4 * LATITUDE: -57.558500 * LONGITUDE: -151.219500 * DATE/TIME: 2009-12-29T21:50:00 * ELEVATION: -3099.0 m * Recovery: 9.61 m * LOCATION: South Pacific Ocean * CAMPAIGN: ANT-XXVI/2 (PS75 BIPOMAC) (URI: https://doi.org/10.2312/BzPM_0632_2011) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Gravity corer (Kiel type) (SL)
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+	AGE [ka BP] (Age) * GEOCODE * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+	Opal, flux [g/cm**2/ka] (Opal flux) * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/) * METHOD/DEVICE: Th-normalized, salt corrected
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	78 data points
+*/
+Depth sed [m]	Age [ka BP]	Opal flux [g/cm**2/ka]
+0.01	0.769	1.708
+0.11	1.339	1.750
+0.21	1.910	1.626
+0.31	2.785	1.767
+0.41	3.693	1.512
+0.51	4.601	1.624
+0.57	5.445	1.456
+0.61	5.924	1.389
+0.67	6.813	1.224
+0.71	7.292	1.147
+0.81	8.661	1.195
+0.87	9.550	1.200
+0.91	10.029	1.163
+0.97	11.192	0.796
+1.01	11.845	0.898
+1.07	13.043	1.350
+1.11	13.411	1.465
+1.17	14.095	1.243
+1.21	14.464	1.170
+1.31	15.516	0.784
+1.41	16.787	0.492
+1.51	18.082	0.247
+1.61	35.434	0.169
+1.71	55.722	0.260
+1.81	70.513	1.158
+1.91	73.410	1.609
+2.01	74.814	2.941
+2.11	76.106	3.265
+2.21	77.398	2.842
+2.31	78.691	3.205
+2.41	79.983	2.340
+2.51	81.275	2.618
+2.61	82.568	1.851
+2.71	83.860	1.576
+2.81	85.152	0.843
+2.91	86.444	0.677
+3.01	87.921	0.427
+3.11	89.521	1.099
+3.21	91.121	0.917
+3.27	92.161	1.346
+3.31	92.721	2.101
+3.41	94.321	2.626
+3.51	95.921	2.398
+3.71	99.122	2.618
+3.91	102.322	3.312
+4.01	103.922	3.302
+4.11	105.170	2.896
+4.21	106.114	2.088
+4.31	107.058	1.645
+4.41	108.003	1.085
+4.51	108.947	0.820
+4.61	109.892	0.915
+4.81	111.569	0.621
+5.01	113.067	1.586
+5.11	113.816	1.508
+5.21	114.781	2.399
+5.31	116.664	1.891
+5.41	118.547	2.952
+5.51	120.429	3.004
+5.61	122.312	3.187
+5.71	124.194	3.296
+5.81	126.077	2.413
+5.91	126.868	2.041
+6.01	127.457	1.406
+6.11	128.045	0.948
+6.21	128.633	1.054
+6.31	129.221	1.112
+6.41	129.809	1.222
+6.51	130.397	0.886
+6.61	130.986	0.701
+6.71	132.192	0.965
+6.77	133.594	1.266
+6.81	134.349	1.752
+6.91	137.081	0.273
+6.97	139.545	0.180
+7.02	149.205	0.119
+7.37	190.691	1.664
+7.72	199.150	2.864

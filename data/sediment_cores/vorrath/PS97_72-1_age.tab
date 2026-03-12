@@ -1,0 +1,33 @@
+/* DATA DESCRIPTION:
+Citation:	Vorrath, Maria-Elena; Müller, Juliane; Cárdenas, Paola; Mieruch, Sebastian; Esper, Oliver; Opel, Thomas; Lembke-Jene, Lester; Etourneau, Johan; Vieht-Hillebrand, Andrea; Lahajnar, Niko; Lange, Carina Beatriz; Leventer, Amy; Evangelinos, Dimitris; Escutia, Carlota; Mollenhauer, Gesine (2023): Radiocarbon ages from the sediment core PS97/72-1 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.952274, 
+	In: Vorrath, M-E et al. (2023): Radiocarbon ages, geochemistry, biomarkers and diatoms from the marine sediment core PS97/72-1, Bransfield Strait, Western Antarctic Peninsula [dataset bundled publication]. PANGAEA, https://doi.org/10.1594/PANGAEA.952279
+Keyword(s):	Antarctica; Biomarker; Holocene; IPSO25; Marine Sediment Core; Sea ice
+Coverage:	LATITUDE: -62.006500 * LONGITUDE: -56.064330
+	DATE/TIME START: 2016-03-10T04:13:00 * DATE/TIME END: 2016-03-10T04:13:00
+	MINIMUM DEPTH, sediment/rock: 1.900 m * MAXIMUM DEPTH, sediment/rock: 8.685 m
+Event(s):	PS97/072-1 (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS97_072-stationcard.pdf) * LATITUDE: -62.006500 * LONGITUDE: -56.064330 * DATE/TIME: 2016-03-10T04:13:00 * ELEVATION: -1992.9 m * Recovery: 15.83 m * LOCATION: Scotia Sea * CAMPAIGN: PS97 (ANT-XXXI/3) (URI: https://doi.org/10.2312/BzPM_0701_2016) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (PC)
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de)
+	Sample code/label (Sample label) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de)
+	Laboratory code/label (Lab label) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * COMMENT: AWI-No.
+	Age, dated material (Dated material) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de)
+	Age, dated [ka] (Age dated) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253) * COMMENT: Conventional 14C age
+	Age, dated standard error [±] (Age std e) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253) * COMMENT: Conventional 14C age
+	Age model [ka] (Age model) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * COMMENT: Modelled age for correction after Butzing et al. (2017)
+	Reservoir effect/correction [a] (Res effect) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * COMMENT: Ventilation age for correction
+	Age, dated [ka] (Age dated) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: Age, 14C calibrated * COMMENT: Corrected 14C age for calibration
+	Calendar age [ka BP] (Cal age) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: Age, 14C calibrated
+	Calendar age, standard error [±] (Cal age std e) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: calculated, 1 sigma
+	Calendar age, standard error [±] (Cal age std e) * PI: Vorrath, Maria-Elena (https://orcid.org/0000-0001-7208-1186, maria-elena.vorrath@awi.de) * METHOD/DEVICE: Calculated, 2 sigma
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0) (URI: https://creativecommons.org/licenses/by/4.0/)
+Status:	Curation Level: Enhanced curation (URI: https://wiki.pangaea.de/wiki/Curation_levels)
+Size:	88 data points
+*/
+Depth sed [m]	Sample label	Lab label (AWI-No.)	Dated material	Age dated [ka] (Conventional 14C age, Age, 14...)	Age std e [±] (Conventional 14C age, Age, 14...)	Age model [ka] (Modelled age for correction a...)	Res effect [a] (Ventilation age for correction)	Age dated [ka] (Corrected 14C age for calibra...)	Cal age [ka BP] (Age, 14C calibrated)	Cal age std e [±] (calculated, 1 sigma)	Cal age std e [±] (Calculated, 2 sigma)
+1.900	PS97/072-1_190cm	1428.1.1	calcareous	5.076	0.118	1.076	1200	2.8004	2.920	0.140	0.30
+2.120	PS97/072-1_212cm	2744.1.1	calcareous	5.246	0.082	1.107	1200	2.9389	3.090	0.120	0.23
+3.120	PS97/072-1_312cm	1429.2.1	calcareous	6.054	0.118	1.083	1200	3.7709	4.170	0.190	0.34
+3.400	PS97/072-1_340cm	1430.1.1	calcareous	6.156	0.052	1.089	1200	3.8668	4.300	0.110	0.16
+4.515	PS97/072-1_451.5cm	1431.1.1	calcareous	7.081	0.052	1.142	1200	4.7389	5.410	0.080	0.13
+4.640	PS97/072-1_464cm	1432.2.1	calcareous	7.329	0.117	1.157	1200	4.9721	5.740	0.150	0.26
+8.665	PS97/072-1_866.5cm	7405.1.1	calcareous	12.865	0.101	1.599	1200	10.0659	11.610	0.210	0.33
+8.685	PS97/072-1_868.5cm	7406.1.1	calcareous	12.983	0.100	1.571	1200	10.2122	12.040	0.390	0.53

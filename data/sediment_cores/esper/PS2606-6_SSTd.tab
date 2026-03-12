@@ -1,0 +1,102 @@
+/* DATA DESCRIPTION:
+Citation:	Civel-Mazens, Matthieu; Crosta, Xavier; Cortese, Giuseppe; Lowe, Vikki; Ikehara, Minoru; Itaki, Takuya; Kohfeld, Karen E (2024): Diatom based sea surface temperatures in sediment core PS2606-6 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.973483, 
+	In: Civel-Mazens, M et al. (2024): Sediment cores MD19-3575CQ, MD19-3580, COR-1PC, PS2606-6 - subsurface, surface temperature (full resolution and resampled), and DeltaT records [dataset bundled publication]. PANGAEA, https://doi.org/10.1594/PANGAEA.973478
+Abstract:	We present new records in four sediment cores of the Indian sector of the Southern Ocean. Diatom based sea surface temperatures (SST) were predicted using a dataset containing 249 samples as per Crosta et al. (2020) and applying the Modern Analog Technique to relative abundances of 33 diatom taxa.
+Keyword(s):	diatoms; Radiolarians; Southern Ocean; temperature reconstruction; transfer function
+Related to:	Civel-Mazens, Matthieu; Crosta, Xavier; Cortese, Giuseppe; Lowe, Vikki; Itaki, Takuya; Ikehara, Minoru; Kohfeld, Karen E (2024): Subantarctic jet migrations regulate vertical mixing in the Southern Indian. Earth and Planetary Science Letters, 642, 118877, https://doi.org/10.1016/j.epsl.2024.118877
+Coverage:	LATITUDE: -53.231660 * LONGITUDE: 40.801660
+	DATE/TIME START: 1994-05-11T00:00:00 * DATE/TIME END: 1994-05-11T00:00:00
+	MINIMUM DEPTH, sediment/rock: 0.06 m * MAXIMUM DEPTH, sediment/rock: 7.81 m
+Event(s):	PS2606-6 (PS30/144) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS2606-stationcard.pdf) * LATITUDE: -53.231660 * LONGITUDE: 40.801660 * DATE/TIME: 1994-05-11T00:00:00 * ELEVATION: -2545.0 m * Penetration: 15 m * Recovery: 12.19 m * LOCATION: Conrad Rise * CAMPAIGN: ANT-XI/4 (PS30) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (BGR type) (KL) * COMMENT: 13 core sections: 0-0.26, 0.26-1.26, 1.26-2.25, 2.25-3.24, 3.24-4.24, 4.24-5.24, 5.24-6.24, 6.24-7.24, 7.24-8.19, 8.19-9.19, 9.19-10.19, 10.19-11.19, 11.19-12.19 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Civel-Mazens, Matthieu (https://orcid.org/0000-0002-0884-6890, civelmatthieu@hotmail.fr)
+	AGE [ka BP] (Age) * GEOCODE * PI: Civel-Mazens, Matthieu (https://orcid.org/0000-0002-0884-6890, civelmatthieu@hotmail.fr)
+	Sea surface temperature [°C] (SST) * PI: Civel-Mazens, Matthieu (https://orcid.org/0000-0002-0884-6890, civelmatthieu@hotmail.fr)
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0) (URI: https://creativecommons.org/licenses/by/4.0/)
+Status:	Curation Level: Enhanced curation (URI: https://wiki.pangaea.de/wiki/Curation_levels)
+Size:	84 data points
+*/
+Depth sed [m]	Age [ka BP]	SST [°C]
+0.06	1.3843	2.4813
+0.11	1.7768	2.9625
+0.21	2.5619	2.8196
+0.31	3.5430	2.9262
+0.41	4.1361	2.9995
+0.51	4.7292	3.4514
+0.61	5.2150	4.1651
+0.71	5.4204	4.0776
+0.81	5.7924	3.9918
+0.91	6.1644	3.5229
+1.01	6.5245	2.8920
+1.11	6.8370	4.0705
+1.21	7.1495	3.0056
+1.31	7.4620	4.0741
+1.41	7.7999	4.2162
+1.51	8.2394	2.5489
+1.61	8.6735	2.9663
+1.71	9.0860	4.1408
+1.81	9.5063	2.6362
+1.91	9.9580	4.0855
+2.01	10.4097	5.0263
+2.11	10.8886	4.7221
+2.21	11.4306	4.0401
+2.31	11.7886	4.7813
+2.41	12.1130	3.7312
+2.51	12.3027	2.9671
+2.61	12.4925	2.4395
+2.71	12.6823	2.1578
+2.81	12.8721	2.0200
+2.91	13.0619	2.6442
+3.01	13.2517	3.2599
+3.11	13.5343	2.6303
+3.21	14.0954	3.7428
+3.31	14.6566	3.6761
+3.37	14.9933	2.8314
+3.41	15.2178	2.1868
+3.47	15.5544	2.3600
+3.51	15.7789	3.8577
+3.56	16.0595	1.6037
+3.61	16.3401	1.7617
+3.67	16.6768	2.4685
+3.71	16.9012	2.0180
+3.77	17.2379	1.2159
+3.81	17.4624	1.0391
+3.91	18.0235	1.0109
+4.01	18.5847	0.6676
+4.11	19.1458	0.4754
+4.21	19.7070	0.6777
+4.31	20.2849	0.4598
+4.41	20.8627	0.4756
+4.51	21.4406	0.4727
+4.61	22.0184	0.6977
+4.71	22.5963	0.6708
+4.81	23.1741	1.0239
+4.91	23.7520	0.6637
+5.01	24.3299	0.4668
+5.11	24.9077	0.3861
+5.21	25.4856	0.8119
+5.31	26.0634	0.4052
+5.41	26.6413	0.6580
+5.51	27.2191	0.4515
+5.61	27.7970	1.0560
+5.71	28.3806	1.0546
+5.81	28.9642	0.6653
+5.91	29.5479	0.6338
+6.01	30.1315	0.8570
+6.11	30.7151	1.4945
+6.21	31.2987	0.8644
+6.31	31.8824	1.1938
+6.41	32.4660	1.4449
+6.51	33.4300	0.9056
+6.61	34.3940	1.1473
+6.71	35.3580	0.6893
+6.81	36.3220	0.8263
+6.91	37.2860	1.0428
+7.01	38.2500	1.7629
+7.11	39.2140	2.0262
+7.21	40.1780	1.5955
+7.31	41.1420	0.6694
+7.41	42.1060	1.0729
+7.51	43.0700	0.7132
+7.61	44.0340	1.5443
+7.71	44.9980	1.6139
+7.81	45.9620	1.6060

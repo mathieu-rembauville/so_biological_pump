@@ -1,0 +1,42 @@
+/* DATA DESCRIPTION:
+Citation:	Benz, Verena; Esper, Oliver; Gersonde, Rainer; Lamy, Frank; Tiedemann, Ralf (2016): Age model of sediment core PS75/072-4 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.849180, 
+	In supplement to: Benz, V et al. (2016): Last Glacial Maximum sea surface temperature and sea-ice extent in the Pacific sector of the Southern Ocean. Quaternary Science Reviews, 146, 216-237, https://doi.org/10.1016/j.quascirev.2016.06.006
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -57.558500 * LONGITUDE: -151.219500
+	DATE/TIME START: 2009-12-29T21:50:00 * DATE/TIME END: 2009-12-29T21:50:00
+	MINIMUM DEPTH, sediment/rock: 0.015 m * MAXIMUM DEPTH, sediment/rock: 9.580 m
+Event(s):	PS75/072-4 * LATITUDE: -57.558500 * LONGITUDE: -151.219500 * DATE/TIME: 2009-12-29T21:50:00 * ELEVATION: -3099.0 m * Recovery: 9.61 m * LOCATION: South Pacific Ocean * CAMPAIGN: ANT-XXVI/2 (PS75 BIPOMAC) (URI: https://doi.org/10.2312/BzPM_0632_2011) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Gravity corer (Kiel type) (SL)
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html)
+	Age model [ka] (Age model) * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html)
+	Age, comment (Comm) * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html) * COMMENT: Correlation
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	54 data points
+*/
+Depth sed [m]	Age model [ka]	Comm
+0.015	0.729	14C dated (Foraminifera)
+0.215	1.705	14C dated (Foraminifera)
+0.365	2.929	14C dated (Foraminifera)
+0.515	4.291	14C dated (Foraminifera)
+0.765	7.494	14C dated (Foraminifera)
+0.915	9.600	14C dated (Foraminifera)
+1.015	10.984	14C dated (Foraminifera)
+1.315	13.786	14C dated (Foraminifera)
+1.365	14.480	SSST with SSST PS75/073-2
+1.465	16.666	SSST with SSST PS75/073-2
+1.515	19.387	14C dated (Foraminifera)
+1.565	22.676	14C dated (Foraminifera)
+1.665	28.418	14C dated (Foraminifera)
+1.815	70.106	CRS with CRS PS75/072-3
+1.865	71.804	CRS with CRS PS75/072-3
+2.665	84.992	delta18O with LR04
+3.265	90.619	delta18O with LR04
+6.465	128.506	delta18O with LR04
+6.665	130.158	delta18O with LR04
+7.065	135.711	LOD Rouxia leventerae
+7.365	190.837	LOD Hemidiscus karstenii
+7.615	199.926	delta18O with LR04
+8.550	217.380	Fe with EDC dust
+8.770	224.337	Fe with EDC dust
+9.115	244.057	LOD Rouxia constricta
+9.415	291.058	Rouxia constricta and Hemidiscus karstenii
+9.580	305.000	Fe with EDC dust

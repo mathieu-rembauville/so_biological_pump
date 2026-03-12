@@ -1,0 +1,42 @@
+/* DATA DESCRIPTION:
+Citation:	Jacot des Combes, Hélène; Esper, Oliver; De La Rocha, Christina L; Abelmann, Andrea; Gersonde, Rainer; Yam, Ruth; Shemesh, Aldo (2008): Stable isotopes in opal of sediment core PS1786-1 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.693829, 
+	In supplement to: Jacot des Combes, H et al. (2008): Diatom d13C, d15N, and C/N since the Last Glacial Maximum in the Southern Ocean: Potential impact of species composition. Paleoceanography, 23(4), PA4209, https://doi.org/10.1029/2008PA001589
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -54.923330 * LONGITUDE: -31.720000
+	DATE/TIME START: 1989-11-24T00:32:00 * DATE/TIME END: 1989-11-24T00:32:00
+	MINIMUM DEPTH, sediment/rock: 0.010 m * MAXIMUM DEPTH, sediment/rock: 2.350 m
+Event(s):	PS1786-1 (PS16/372) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS1786-stationcard.pdf) * LATITUDE: -54.923330 * LONGITUDE: -31.720000 * DATE/TIME: 1989-11-24T00:32:00 * ELEVATION: -5826.0 m * Penetration: 5 m * Recovery: 2.36 m * LOCATION: South Sandwich Trough * CAMPAIGN: ANT-VIII/3 (PS16) (URI: https://doi.org/10.2312/BzP_0074_1990) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Gravity corer (Kiel type) (SL) * COMMENT: 3 core sections: 0-0.32, 0.32-1.34, 1.34-2.36 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	AGE [ka BP] (Age) * GEOCODE
+	δ13C, opal [‰ PDB] (δ13C opal) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	δ15N, opal [‰ air] (δ15N opal) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Carbon/Nitrogen ratio (C/N) * PI: Jacot des Combes, Hélène * METHOD/DEVICE: Calculated * COMMENT: opal
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	75 data points
+*/
+Depth sed [m]	Age [ka BP]	δ13C opal [‰ PDB]	δ15N opal [‰ air]	C/N
+0.010	1.62	-21.88	2.34	9.04
+0.065	1.92	-23.39	2.35	9.10
+0.160	2.46	-22.08	1.64	7.36
+0.260	3.02	-24.69	1.71	8.05
+0.370	3.64	-24.79	2.21	12.66
+0.460	4.14	-23.77	2.12	9.14
+0.560	4.70	-24.30	1.83	8.88
+0.660	5.26	-23.16	1.91	8.54
+0.760	5.89	-24.55	2.34	8.79
+0.860	6.66	-21.57	1.56	8.44
+0.960	7.43	-21.17	1.07	9.51
+1.060	8.20	-24.52	2.50	11.21
+1.160	8.97	-23.74	2.42	9.62
+1.260	9.80	-24.03	2.75	9.05
+1.360	10.75	-24.54	2.99	10.78
+1.460	11.70	-22.61	2.10	10.60
+1.560	12.88	-23.00	3.02	11.15
+1.660	14.62	-22.66	2.79	9.29
+1.760	16.35	-22.04	2.35	10.72
+1.860	19.37	-25.57	4.69	7.36
+1.960	21.26	-25.59	4.70	7.09
+2.060	23.14	-26.04	4.46	7.05
+2.160	25.02	-23.26	3.19	8.73
+2.260	26.69	-24.29	3.55	8.06
+2.350	27.75	-22.31	3.23	9.35

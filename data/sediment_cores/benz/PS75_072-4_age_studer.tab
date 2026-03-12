@@ -1,0 +1,40 @@
+/* DATA DESCRIPTION:
+Citation:	Studer, Anja S; Sigman, Daniel M; Martínez‐García, Alfredo; Benz, Verena; Winckler, Gisela; Kuhn, Gerhard; Esper, Oliver; Lamy, Frank; Jaccard, Samuel L; Wacker, Lukas; Oleynik, Sergey; Gersonde, Rainer; Haug, Gerald H (2015): Age model and sedimentation rates of sediment core PS75/072-4 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.848270, 
+	In supplement to: Studer, AS et al. (2015): Antarctic Zone nutrient conditions during the last two glacial cycles. Paleoceanography, 30(7), 845-862, https://doi.org/10.1002/2014PA002745
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -57.558500 * LONGITUDE: -151.219500
+	DATE/TIME START: 2009-12-29T21:50:00 * DATE/TIME END: 2009-12-29T21:50:00
+	MINIMUM DEPTH, sediment/rock: 0.020 m * MAXIMUM DEPTH, sediment/rock: 9.207 m
+Event(s):	PS75/072-4 * LATITUDE: -57.558500 * LONGITUDE: -151.219500 * DATE/TIME: 2009-12-29T21:50:00 * ELEVATION: -3099.0 m * Recovery: 9.61 m * LOCATION: South Pacific Ocean * CAMPAIGN: ANT-XXVI/2 (PS75 BIPOMAC) (URI: https://doi.org/10.2312/BzPM_0632_2011) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Gravity corer (Kiel type) (SL)
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+	Age model [ka] (Age model) * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+	Age, comment (Comm) * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+	Sedimentation rate [cm/ka] (SR) * PI: Studer, Anja S (https://orcid.org/0000-0001-7354-8497, anja.studer@unibas.ch, https://duw.unibas.ch/de/bgc/team/studer/)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	72 data points
+*/
+Depth sed [m]	Age model [ka]	Comm	SR [cm/ka]
+0.020	0.826	14C	17.53
+0.220	1.967	14C	11.01
+0.520	4.692	14C	7.31
+0.920	10.166	14C	5.36
+1.073	13.024	d18O to EDC dD	9.50
+1.320	15.621	14C	7.72
+1.572	18.881	d18O to EDC dD	0.23
+1.615	37.642	d18O to EDC dD	0.52
+1.771	67.323	d18O to EDC dD	1.23
+1.819	71.207	d18O to EDC dD	4.15
+1.920	73.650	d18O to EDC dD	7.74
+2.950	86.964	d18O to EDC dD	6.25
+4.056	104.662	d18O to EDC dD	10.59
+4.702	110.762	d18O to EDC dD	13.35
+5.191	114.422	d18O to EDC dD	5.31
+5.826	126.372	d18O to EDC dD	17.00
+6.671	131.342	d18O to EDC dD	4.64
+6.875	135.747	d18O to EDC dD	2.64
+6.980	139.747	d18O to EDC dD	0.47
+7.201	186.457	Ba/Fe	4.11
+7.381	190.837	Diatom LOD H. karstenii	2.48
+7.543	197.382	d18O to EDC dD	10.29
+8.299	204.732	d18O to EDC dD	6.35
+9.207	219.039	d18O to EDC dD	6.35

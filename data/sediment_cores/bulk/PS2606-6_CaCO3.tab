@@ -1,0 +1,138 @@
+/* DATA DESCRIPTION:
+Citation:	Kuhn, Gerhard (2003): Calcium carbonate content of sediment core PS2606-6 [dataset]. Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, PANGAEA, https://doi.org/10.1594/PANGAEA.93723
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -53.231660 * LONGITUDE: 40.801660
+	DATE/TIME START: 1994-05-11T00:00:00 * DATE/TIME END: 1994-05-11T00:00:00
+	MINIMUM DEPTH, sediment/rock: 0.05 m * MAXIMUM DEPTH, sediment/rock: 12.15 m
+Event(s):	PS2606-6 (PS30/144) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS2606-stationcard.pdf) * LATITUDE: -53.231660 * LONGITUDE: 40.801660 * DATE/TIME: 1994-05-11T00:00:00 * ELEVATION: -2545.0 m * Penetration: 15 m * Recovery: 12.19 m * LOCATION: Conrad Rise * CAMPAIGN: ANT-XI/4 (PS30) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (BGR type) (KL) * COMMENT: 13 core sections: 0-0.26, 0.26-1.26, 1.26-2.25, 2.25-3.24, 3.24-4.24, 4.24-5.24, 5.24-6.24, 6.24-7.24, 7.24-8.19, 8.19-9.19, 9.19-10.19, 10.19-11.19, 11.19-12.19 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	Calcium carbonate [%] (CaCO3) * PI: Kuhn, Gerhard (https://orcid.org/0000-0001-6069-7485, ge_ku@uni-bremen.de) * METHOD/DEVICE: Element analyser CHN, LECO, salinity corrected (URI: http://www.leco.com/)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	125 data points
+*/
+Depth sed [m]	CaCO3 [%]
+0.05	6.5
+0.10	11.8
+0.20	9.0
+0.30	7.3
+0.40	6.5
+0.50	7.4
+0.60	8.2
+0.70	5.2
+0.80	6.7
+0.90	4.6
+1.00	6.6
+1.10	5.3
+1.20	6.0
+1.30	5.9
+1.40	5.0
+1.50	5.1
+1.60	5.6
+1.70	5.3
+1.80	7.6
+1.90	5.7
+2.00	8.3
+2.10	11.2
+2.20	8.7
+2.30	8.9
+2.40	11.0
+2.50	2.4
+2.60	1.8
+2.70	1.4
+2.80	2.2
+2.90	2.5
+3.00	4.3
+3.10	4.5
+3.20	2.6
+3.30	2.7
+3.40	0.9
+3.50	0.6
+3.56	2.1
+3.60	0.3
+3.70	0.2
+3.80	0.2
+3.90	0.0
+4.00	0.3
+4.10	0.3
+4.20	0.8
+4.30	0.6
+4.40	0.4
+4.50	0.4
+4.60	0.0
+4.70	0.1
+4.80	0.1
+4.87	0.1
+4.90	-0.1
+5.00	0.0
+5.10	0.2
+5.20	0.3
+5.30	0.0
+5.40	0.0
+5.50	0.3
+5.60	-0.1
+5.70	0.2
+5.80	-0.2
+5.90	-0.1
+6.00	-0.1
+6.10	-0.5
+6.20	0.0
+6.30	0.1
+6.40	0.2
+6.50	-0.2
+6.60	-0.3
+6.70	-0.2
+6.80	-0.1
+6.90	0.1
+7.00	0.0
+7.10	0.5
+7.20	0.1
+7.30	-0.2
+7.40	0.0
+7.50	-0.1
+7.60	0.6
+7.70	1.5
+7.80	0.7
+7.90	0.4
+8.00	0.4
+8.10	0.0
+8.20	-0.2
+8.30	-0.1
+8.40	0.1
+8.50	-0.1
+8.60	0.3
+8.70	0.4
+8.80	0.0
+8.90	1.3
+9.00	2.1
+9.10	0.6
+9.20	0.7
+9.30	1.1
+9.40	1.4
+9.50	0.3
+9.60	0.4
+9.70	1.2
+9.80	2.3
+9.90	3.3
+10.00	5.9
+10.10	2.4
+10.20	1.8
+10.30	4.7
+10.40	1.2
+10.50	1.7
+10.60	1.7
+10.70	1.2
+10.80	2.2
+10.90	3.3
+11.00	2.7
+11.10	4.1
+11.20	4.4
+11.30	4.6
+11.40	5.9
+11.50	4.0
+11.60	2.4
+11.70	1.1
+11.80	1.4
+11.90	2.2
+12.00	4.1
+12.10	7.7
+12.15	3.1

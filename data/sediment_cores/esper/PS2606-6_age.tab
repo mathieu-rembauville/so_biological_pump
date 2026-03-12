@@ -1,0 +1,71 @@
+/* DATA DESCRIPTION:																	
+Citation:	Ronge, Thomas A (2019): Radiocarbon ages of sediment core PS2606-6 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.906357, 																
+	In: Ronge, TA (2019): Stable and radiogenic isotope record for sediments cores from the Southern Indian Ocean [dataset publication series]. PANGAEA, https://doi.org/10.1594/PANGAEA.906365																
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)																
+	Priority Programme 1158 Antarctic Research with Comparable Investigations in Arctic Sea Ice Areas (SPP1158) (URI: https://gepris.dfg.de/gepris/projekt/5472008)																
+Funding:	German Research Foundation (DFG) (URI: http://www.dfg.de/en/), grant/award no. 275572713: The ventilation and circulation of the southern Indian Ocean on glacial / interglacial timescales (URI: https://gepris.dfg.de/gepris/projekt/275572713)																
+	German Research Foundation (DFG) (URI: http://www.dfg.de/en/), grant/award no. 5472008: Priority Programme 1158 Antarctic Research with Comparable Investigations in Arctic Sea Ice Areas (URI: https://gepris.dfg.de/gepris/projekt/5472008)																
+Coverage:	LATITUDE: -53.231660 * LONGITUDE: 40.801660																
+	DATE/TIME START: 1994-05-11T00:00:00 * DATE/TIME END: 1994-05-11T00:00:00																
+	MINIMUM DEPTH, sediment/rock: 0.070 m * MAXIMUM DEPTH, sediment/rock: 4.190 m																
+Event(s):	PS2606-6 (PS30/144) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS2606-stationcard.pdf) * LATITUDE: -53.231660 * LONGITUDE: 40.801660 * DATE/TIME: 1994-05-11T00:00:00 * ELEVATION: -2545.0 m * Penetration: 15 m * Recovery: 12.19 m * LOCATION: Conrad Rise * CAMPAIGN: ANT-XI/4 (PS30) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (BGR type) (KL) * COMMENT: 13 core sections: 0-0.26, 0.26-1.26, 1.26-2.25, 2.25-3.24, 3.24-4.24, 4.24-5.24, 5.24-6.24, 6.24-7.24, 7.24-8.19, 8.19-9.19, 9.19-10.19, 10.19-11.19, 11.19-12.19 m																
+Parameter(s):	Laboratory code/label (Lab label) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Depth, top/min [m] (Depth top) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Depth, bottom/max [m] (Depth bot) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Age, dated material (Dated material) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Process (Process) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Fraction modern carbon (F14C) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Fraction modern carbon, error [±] (F14C e) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Age, dated [ka] (Age dated) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253)																
+	Age, dated standard error [±] (Age std e) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253)																
+	δ13C [‰ PDB] (δ13C) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Calendar age [ka BP] (Cal age) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu) * METHOD/DEVICE: Age, 14C calibrated * COMMENT: mean																
+	Calendar age, standard error [±] (Cal age std e) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu) * METHOD/DEVICE: Age, 14C calibrated																
+	Δ14C [‰] (Δ14C) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	ΔΔ14C [‰] (ΔΔ14C) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Δ14C, standard deviation [±] (Δ14C std dev) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+	Code (Code) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu) * COMMENT: used (Y/N)																
+	Comment (Comment) * PI: Ronge, Thomas A (https://orcid.org/0000-0003-2625-719X, ronge@iodp.tamu.edu)																
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0) (URI: https://creativecommons.org/licenses/by/4.0/)																
+Size:	557 data points																
+*/																	
+Lab label	Depth sed [m]	Depth top [m]	Depth bot [m]	Dated material	Process	F14C	F14C e [±]	Age dated [ka]	Age std e [±]	δ13C [‰ PDB]	Cal age [ka BP]	Cal age std e [±]	Δ14C [‰]	ΔΔ14C [‰]	Δ14C std dev [±]	Code	Comment
+1487.1.1	0.07	0.06	0.08	Neogloboquadrina pachyderma sinistral	Gas	0.8272	0.6205	2.4	0.105	1.09	1.613	0.256	-98.394			Y	
+1487.2.1	0.07	0.06	0.08	Mixed benthic foraminifera	Gas	0.8002	0.6178	2.626	0.105	1.08	1.613		-123.462	-104.961	12.84	Y	
+1489.1.1	0.095	0.09	0.1	Neogloboquadrina pachyderma sinistral	Gas	0.8203	0.8103	2.45	0.114	1.09	1.669	0.264	-97.908			Y	short measurement due to instrument communication problem
+1489.2.1	0.095	0.09	0.1	Mixed benthic foraminifera	Gas	0.7753	0.8619	2.791	0.116	1.08	1.669		-135.462	-120.762	14.12	Y	
+OS-131478	0.19	0.18	0.2	Neogloboquadrina pachyderma sinistral	(HY) Hydrolysis	0.6857	0.0018	3.03	0.02	1.19	2.352	0.066	-88.492			Y	
+OS-131579	0.19	0.18	0.2	Mixed benthic foraminifera	(HY) Hydrolysis	0.6678	0.0025	3.24	0.03	-0.43	2.352		-112.012	-104.312	3.85	Y	
+1491.1.1	0.295	0.29	0.3	Neogloboquadrina pachyderma sinistral	Gas	0.6803	0.7712	3.919	0.112	1.08	3.454	0.265	-67.59			Y	
+1491.2.1	0.295	0.29	0.3	Mixed benthic foraminifera	Gas	0.6419	0.7328	4.449	0.111	1.09	3.454		-127.157	-141.157	14.58	Y	
+OS-131479	0.585	0.57	0.6	Neogloboquadrina pachyderma sinistral	(HY) Hydrolysis	0.5223	0.0015	5.22	0.025	1.35	5.174	0.132	-23.599			Y	
+OS-131572	0.585	0.57	0.6	Mixed benthic foraminifera	(HY) Hydrolysis	0.5179	0.0019	5.29	0.03		5.174		-32.07	-100.47	9.41	Y	
+OS-131480	0.69	0.68	0.7	Neogloboquadrina pachyderma sinistral	(HY) Hydrolysis	0.5136	0.0016	5.35	0.025	1.01	5.346	0.07	-19.073			Y	
+OS-131584	0.69	0.68	0.7	Mixed benthic foraminifera	(HY) Hydrolysis	0.483	0.0039	5.85	0.065	-0.52	5.346		-78.268	-141.067	5.89	Y	
+1493.1.1	0.99	0.98	1	Neogloboquadrina pachyderma sinistral	Gas	0.5151	0.7859	6.242	0.113	1.09	6.462	0.25	4.785			Y	
+1493.2.1	0.99	0.98	1	Mixed benthic foraminifera	Gas	0.4875	0.7511	6.712	0.112	1.09	6.462		-52.328	-129.527	14.9	Y	
+1495.1.1	1.39	1.38	1.4	Neogloboquadrina pachyderma sinistral	Gas	0.4434	0.7985	7.488	0.114	1.09	7.712	0.219	0.819			N	
+1495.2.1	1.39	1.38	1.4	Mixed benthic foraminifera	Gas	0.4402	1.368	7.371	0.146	1.08	7.712		15.552	-60.249	13.9	N	B<P
+1497.1.1	1.59	1.58	1.6	Neogloboquadrina pachyderma sinistral	Gas	0.3967	0.9735	8.305	0.122	1.08	8.591	0.318	5.489			Y	
+1497.2.1	1.59	1.58	1.6	Mixed benthic foraminifera	Gas	0.379	0.8853	8.696	0.119	1.08	8.591		-42.304	-112.803	20.85	Y	
+OS-131481	1.79	1.78	1.8	Neogloboquadrina pachyderma sinistral	(HY) Hydrolysis	0.3286	0.0011	8.94	0.03	0.97	9.416	0.07	26.562			Y	
+OS-131582	1.79	1.78	1.8	Mixed benthic foraminifera	(HY) Hydrolysis	0.3166	0.0028	9.24	0.07	-0.12	9.416		-11.069	-115.869	3.58	Y	
+OS-131482	2.09	2.08	2.1	Mixed Planktic foraminifera	(HY) Hydrolysis	0.2855	0.0012	10.05	0.03	0.23	10.771	0.142	53.333			Y	
+OS-131580	2.09	2.08	2.1	Mixed benthic foraminifera	(HY) Hydrolysis	0.2799	0.0025	10.25	0.07	-0.08	10.771		27.432	-94.669	10.01	Y	
+1499.1.1	2.19	2.18	2.2	Mixed Planktic foraminifera	Gas	0.3042	0.9248	10.495	0.12	1.09	11.359	0.4	70.106			Y	unusually high currents observed during measurement
+1499.2.1	2.19	2.18	2.2	Mixed benthic foraminifera	Gas	0.2969	1.0864	10.668	0.131	1.08	11.359		47.254	-94.346	25.65	Y	
+OS-131483	2.39	2.38	2.4	Mixed Planktic foraminifera	(HY) Hydrolysis	0.2567	0.0012	10.9	0.04	0.19	12.075	0.204	109.49			Y	
+OS-131581	2.39	2.38	2.4	Mixed benthic foraminifera	(HY) Hydrolysis	0.2491	0.0028	11.15	0.09	-0.26	12.075		75.493	-119.508	13.31	Y	
+1501.1.1	2.685	2.68	2.69	Mixed Planktic foraminifera	Gas	0.3406	1.0099	9.565	0.125	1.09	10.189	0.354	42.828			N	reversal
+1501.2.1	2.685	2.68	2.69	Mixed benthic foraminifera	Gas	0.3151	2.2294	10.103	0.207	1.07	10.189		-24.787	-145.986	22.91	N	
+OS-131577	3.085	3.08	3.09	Mixed Planktic foraminifera	(HY) Hydrolysis	0.2087	0.0024	12.6	0.09	0.5	13.394	0.175	53.21			Y	
+OS-131485	3.085	3.08	3.09	Mixed benthic foraminifera	(HY) Hydrolysis	0.1914	0.0011	13.3	0.045	-0.77	13.394		-34.682	-236.482	10.79	Y	
+1737.1.1	3.095	3.09	3.1	Mixed Planktic foraminifera	Gas	0.2192	0.0039	12.192	0.143	1.08	13.005	0.312	57.136			N	
+1737.2.1	3.095	3.09	3.1	Mixed benthic foraminifera	Gas	0.2276	0.0042	11.889	0.149	1.08	13.005		97.726	-113.374	20.52	N	B<P
+1738.1.1	3.29	3.28	3.3	Mixed Planktic foraminifera	Gas	0.2509	0.0042	11.109	0.134	1.08	11.605	0.504	21.296			N	
+1738.2.1	3.29	3.28	3.3	Mixed benthic foraminifera	Gas	0.216	0.0036	12.31	0.132	1.08	11.605		-120.593	-287.492	29.9	N	reversal
+1739.1.1	3.48	3.47	3.49	Mixed Planktic foraminifera	Gas	0.6783	0.009	3.118	0.107	1.08	12.494	0.291	-82.787			N	reversal
+1739.2.1	3.48	3.47	3.49	Mixed benthic foraminifera	Gas	0.218	0.0036	12.234	0.134	1.08	12.494		-705.154	-699.353	5.29	N	
+OS-131592	4.19	4.18	4.2	Mixed Planktic foraminifera	(HY) Hydrolysis	0.1777	0.0013	13.9	0.06	0.28	15.302	0.221	128.439			Y	
+OS-131585	4.19	4.18	4.2	Mixed benthic foraminifera	(HY) Hydrolysis	0.1753	0.0033	14	0.15	-1.19	15.302		114.479	-169.922	16.59	Y	

@@ -1,0 +1,38 @@
+/* DATA DESCRIPTION:
+Citation:	Benz, Verena; Esper, Oliver; Gersonde, Rainer; Lamy, Frank; Tiedemann, Ralf (2016): Age model of sediment core PS58/270-5 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.849113, 
+	In supplement to: Benz, V et al. (2016): Last Glacial Maximum sea surface temperature and sea-ice extent in the Pacific sector of the Southern Ocean. Quaternary Science Reviews, 146, 216-237, https://doi.org/10.1016/j.quascirev.2016.06.006
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -62.028000 * LONGITUDE: -116.123000
+	DATE/TIME START: 2001-03-19T18:34:00 * DATE/TIME END: 2001-03-19T20:01:00
+	MINIMUM DEPTH, sediment/rock: 0.04 m * MAXIMUM DEPTH, sediment/rock: 22.82 m
+Event(s):	PS58/270-5 (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS58_270-stationcard.pdf) * LATITUDE: -62.028000 * LONGITUDE: -116.123000 * DATE/TIME START: 2001-03-19T18:34:00 * DATE/TIME END: 2001-03-19T20:01:00 * ELEVATION: -4981.0 m * Recovery: 22.95 m * LOCATION: Southeast Pacific * CAMPAIGN: ANT-XVIII/5a (PS58) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Piston corer (BGR type) (KL) * COMMENT: 23 core sections: 0-0.95, 0.95-1.95, 1.95-2.95, 2.95-3.97, 3.97-4.97, 4.97-5.97, 5.97-6.97, 6.97-7.97, 7.97-8.97, 8.97-9.97, 9.97-10.97, 10.97-11.97, 11.97-12.97, 12.97-13.95, 13.95-14.95, 14.95-15.95, 15.95-16.95, 16.95-17.95, 17.95-18.95, 18.95-19.95, 19.95-20.95, 21.95-22.95 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html)
+	Age model [ka] (Age model) * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html)
+	Age, comment (Comm) * PI: Tiedemann, Ralf (https://orcid.org/0000-0001-7211-8049, ralf.tiedemann@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/ralf-tiedemann.html) * COMMENT: Correlation
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	46 data points
+*/
+Depth sed [m]	Age model [ka]	Comm
+0.04	5.857	Fe with Fe PS58/271-1
+0.67	7.264	Fe with Fe PS58/271-1
+1.12	12.461	SSST with SSST PS58/271-1
+1.42	18.923	Eanta/Fkerg with Eanta/Fkerg PS58/271-1
+1.72	22.818	Eanta with Eanta PS58/271-1
+2.48	30.626	Fe with Fe PS58/271-1
+3.63	61.520	Fe with Fe PS58/271-1
+3.91	66.985	Fe with Fe PS58/271-1
+5.23	96.092	Fe with Fe PS58/271-1
+6.02	113.140	Fe with Fe PS58/271-1
+6.52	117.564	Fe with Fe PS58/271-1
+6.92	124.928	Fe with Fe PS58/271-1
+7.12	128.931	SSST with SSST PS58/271-1
+7.42	132.212	LOD Rouxia leventerae
+9.32	189.558	LOD Hemidiscus karstenii
+13.02	245.059	SSST with EDC delta T
+14.12	280.805	LOD Rouxia constricta
+17.02	326.617	SSST with EDC delta T
+18.32	342.103	SSST with EDC delta T
+19.42	381.849	LOD Actinocyclus ingens
+20.12	404.900	SSST with EDC delta T
+21.42	428.065	SSST with EDC delta T
+22.82	470.337	SSST with EDC delta T

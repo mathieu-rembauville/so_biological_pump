@@ -1,0 +1,21 @@
+/* DATA DESCRIPTION:
+Citation:	Mackensen, Andreas (1996): Age model of sediment core PS1768-8 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.50559
+Project(s):	Paleoenvironmental Reconstructions from Marine Sediments @ AWI (AWI_Paleo) (URI: https://www.awi.de/en/science/geosciences/marine-geology.html)
+Coverage:	LATITUDE: -52.593000 * LONGITUDE: 4.476000
+	DATE/TIME START: 1989-11-11T21:40:00 * DATE/TIME END: 1989-11-11T21:40:00
+	MINIMUM DEPTH, sediment/rock: 0.00 m * MAXIMUM DEPTH, sediment/rock: 9.00 m
+Event(s):	PS1768-8 (PS16/311) (URI: https://store.pangaea.de/Images/Cores/PS-stationcard/PS1768-stationcard.pdf) * LATITUDE: -52.593000 * LONGITUDE: 4.476000 * DATE/TIME: 1989-11-11T21:40:00 * ELEVATION: -3299.0 m * Recovery: 8.96 m * LOCATION: Shona Ridge * CAMPAIGN: ANT-VIII/3 (PS16) (URI: https://doi.org/10.2312/BzP_0074_1990) * BASIS: Polarstern (URI: https://doi.org/10.17815/jlsrf-3-163) * METHOD/DEVICE: Gravity corer (Kiel type) (SL) * COMMENT: 10 core sections: 0-0.44, 0.44-1.06, 1.06-2.06, 2.06-3.06, 3.06-4.06, 4.06-5.04, 5.04-6.04, 6.04-7.04, 7.04-8.04, 8.04-8.96 m
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	Age model [ka] (Age model) * PI: Mackensen, Andreas (https://orcid.org/0000-0002-5024-4455, amackens@posteo.de, https://www.awi.de/en/about-us/organisation/staff/single-view/andreas-mackensen.html)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	8 data points
+*/
+Depth sed [m]	Age model [ka]
+0.00	0
+1.65	12
+2.60	24
+4.80	59
+5.65	68
+7.25	111
+8.40	130
+9.00	145
