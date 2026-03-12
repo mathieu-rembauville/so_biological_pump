@@ -1,7 +1,7 @@
 # so_biological_pump
 
 Python scripts used to produce diatom transfer functions submitted to Climate of the Past:
-"Southern Ocean biological pump over the last glacial cycle from new diatom transfer functions" by Rembauville and Pichat. https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6347/
+"_Southern Ocean biological pump over the last glacial cycle from new diatom transfer functions_" by Rembauville and Pichat. https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6347/
 
 **1_map.py** : Produces the Southern Ocean Map with fronts, sediment traps and sediment cores locations
 
