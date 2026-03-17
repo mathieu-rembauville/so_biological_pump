@@ -194,12 +194,20 @@ criterion = 0.1 # 0.1 % after Esper and Gersonde (2014)
 
 # Sort sediment core species
 diat_core_mean = np.nanmean(diat_core,axis=0)
+diat_core_max = np.nanmax(diat_core,axis=0)
+diat_core_min = np.nanmin(diat_core,axis=0)
 species_core_sorted  = [x for _, x in sorted(zip(diat_core_mean, species_clean_abbr))]
+diat_core_max_sorted = [x for _, x in sorted(zip(diat_core_mean, diat_core_max))]
+diat_core_min_sorted = [x for _, x in sorted(zip(diat_core_mean, diat_core_min))]
 diat_core_mean_sorted = np.sort(diat_core_mean)
 
 # Sort sediment trap species
 diat_trap_mean = np.nanmean(diat_trap,axis=0)
+diat_trap_max = np.nanmax(diat_trap,axis=0)
+diat_trap_min = np.nanmin(diat_trap,axis=0)
 species_trap_sorted  = [x for _, x in sorted(zip(diat_trap_mean, species_clean_abbr))]
+diat_trap_max_sorted = [x for _, x in sorted(zip(diat_trap_mean, diat_trap_max))]
+diat_trap_min_sorted = [x for _, x in sorted(zip(diat_trap_mean, diat_trap_min))]
 diat_trap_mean_sorted = np.sort(diat_trap_mean)
 
 # Identify indicative species
@@ -213,6 +221,7 @@ fig, ax = plt.subplots(1,2,figsize=(18/inch,18/inch))
 y = np.arange(len(species_core_sorted))
 ax[0].barh(y,diat_core_mean_sorted,facecolor='w',ec='k',lw=0.5)
 for i in range(len(species_core_sorted)):
+	ax[0].plot([diat_core_mean_sorted[i],diat_core_max_sorted[i]],[y[i],y[i]],'-k',lw=0.5)
 	if species_core_sorted[i] in np.array(species_selected):
 		ax[0].barh(y[i],diat_core_mean_sorted[i],facecolor='lightgrey',ec='k',lw=0.5)
 ax[0].set_yticklabels(species_core_sorted,fontstyle='italic',fontsize=6)
@@ -220,6 +229,7 @@ ax[0].set_yticklabels(species_core_sorted,fontstyle='italic',fontsize=6)
 # Plot sediment trap species relative abundace
 ax[1].barh(y,diat_trap_mean_sorted,facecolor='w',ec='k',lw=0.5)
 for i in range(len(species_trap_sorted)):
+	ax[1].plot([diat_trap_mean_sorted[i],diat_trap_max_sorted[i]],[y[i],y[i]],'-k',lw=0.5)
 	if species_trap_sorted[i] in np.array(species_selected):
 		ax[1].barh(y[i],diat_trap_mean_sorted[i],facecolor='lightgrey',ec='k',lw=0.5)
 ax[1].set_yticklabels(species_trap_sorted,fontstyle='italic',fontsize=6)
@@ -246,8 +256,9 @@ plt.savefig('fig/fig_03_diatom_species.svg')
 plt.savefig('fig/fig_03_diatom_species.pdf')
 
 
-# Select species > criterion % relative abundace
+#%% Select species > criterion % relative abundace
 species_clean=species_clean[diat_sel_percent]
+species_clean_abbr = species_clean_abbr[diat_sel_percent]
 diat_core_full = diat_core
 diat_trap_full = diat_trap
 diat_core = diat_core[:,diat_sel_percent]
@@ -297,7 +308,7 @@ colors = ['gold','orange','chocolate','saddlebrown','blue','deepskyblue','lights
 
 lab_legend = ['Azpeitia tabularis', 'Nitzschia spp.','Pseudo-nitzschia spp.', 'Thalassionema nitzschioides','Fragilariopsis kerguelensis','Fragilariopsis curta', 'Fragilariopsis cylindrus','Fragilariopsis spp.','Thalassiosira gracilis','Thalassiosira spp.','Corethron pennatum','Chaetoceros sub. Hyalochaete']
 
-# Stacke relative abundance plot
+# Stacked relative abundance plot
 start = 0
 for i in sta_list :
 	# select data
@@ -408,7 +419,7 @@ plt.savefig('fig/fig_S1_scree_plot.pdf')
 # Save loadings for Table 3
 FA = FactorAnalyzer(n_factors=4,rotation='varimax').fit(X)
 data = np.vstack([species_clean,np.round(FA.loadings_.T,2)]).T
-np.savetxt('data/output/transfer_functions/loadings.txt', data, delimiter=";", fmt="%s") 
+np.savetxt('data/output/transfer_functions/FA_loadings.txt', data, delimiter=";", fmt="%s") 
 
 # Select final models explicitely (Table 4)
 group_names = ['g'+str(i+1) for i in range(X_transformed.shape[1])]
@@ -477,12 +488,51 @@ chem_pred_gbr = np.empty(chem.shape)
 # See below for the selection tree depth and number of estimation
 gbr1 = GradientBoostingRegressor(max_depth=2, n_estimators=30)
 gbr2 = GradientBoostingRegressor(max_depth=2, n_estimators=30)
+
 # GBR for POC
 gbr1.fit(X, chem[:,0])
 chem_pred_gbr[:,0] = gbr1.predict(X)
+gbr1_features = gbr1.feature_importances_*100
 # GBR for PIC
 gbr2.fit(X, chem[:,1])
 chem_pred_gbr[:,1] = gbr2.predict(X)
+gbr2_features = gbr2.feature_importances_*100
+# Save features importance
+data = np.vstack([species_clean,np.round(np.vstack([gbr1_features,gbr2_features]),2)]).T
+np.savetxt('data/output/transfer_functions/GBR_features_importance.txt', data, delimiter=";", fmt="%s") 
+
+# Sort species names according to their contribution to the GBR
+species_poc  = [x for _, x in sorted(zip(gbr1_features, species_clean_abbr))]
+gbr1_features_sorted = np.sort(gbr1_features)
+species_pic_poc  = [x for _, x in sorted(zip(gbr2_features, species_clean_abbr))]
+gbr2_features_sorted = np.sort(gbr2_features)
+
+# Plot feature importances for each GBR model
+fig,ax = plt.subplots(1,2,figsize=(18/inch,10/inch))
+plt.subplots_adjust(left=0.25,right=0.97,top=0.9,bottom=0.15,wspace=1.2)
+x = np.arange(X.shape[1])+1
+ax[0].barh(x,gbr1_features_sorted,fc='lightgrey',ec='k',lw=0.5,height=0.75)
+ax[1].barh(x,gbr2_features_sorted,fc='lightgrey',ec='k',lw=0.5,height=0.75)
+for i in [0,1] :
+	ax[i].set_yticks(x)
+	ax[i].set_xscale('log')
+	ax[i].set_xlim([1e-2,1e2])
+	ax[i].set_ylim([0.5,22.5])
+	ax[i].grid(axis='x',lw=0.5,zorder=-10)
+	ax[i].set_axisbelow(True)
+	ax[i].set_xlabel('Species importance (%)')
+ax[0].set_yticklabels(species_poc,fontstyle='italic',fontsize=8)
+ax[1].set_yticklabels(species_pic_poc,fontstyle='italic',fontsize=8)
+ax[0].set_title('POC',fontweight='bold',fontsize=8)
+ax[1].set_title('PIC:POC',fontweight='bold',fontsize=8)
+lab = ['a','b']
+for i in [0,1]:
+	ax[i].annotate(lab[i],(-0.9,0.97),xycoords='axes fraction',fontweight='bold',fontsize='8')
+
+# Save figure
+plt.savefig('fig/fig_S4_GBR_features_importance.png',dpi=300)
+plt.savefig('fig/fig_S4_GBR_features_importance.pdf')
+
 
 #%% ===========================================================================
 # Transfer function calibration plot (Fig. 4)

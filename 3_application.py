@@ -60,6 +60,12 @@ def plot_core(core_name,ax_global,start,stop,window,lab_left,lab_right,lab):
 	diat_core = diat_core[:,diat_sel_total]
 	diat_core = diat_core[:,diat_sel_percent]
 	
+	# Save the selected diatom species rel. ab. for Suppelmentary figures
+	fname = core_name.replace('/','_')+'_diatoms.txt'
+	data_to_save = np.vstack([t,diat_core.T]).T
+	np.savetxt('data/output/reconstructions/'+fname,
+			data_to_save,delimiter='\t',fmt='%1.3f')
+	
 	# Normalise the selected diatom data to 100 %
 	diat_core = (diat_core.T/np.sum(diat_core,axis=1)*100).T
 
@@ -115,7 +121,7 @@ def plot_core(core_name,ax_global,start,stop,window,lab_left,lab_right,lab):
 	
 		# Plot MLR result
 		mlr_handle, = axes[i].plot(t,mlr_pred[:,i],'-b',lw=0.5,alpha=0.5,label='MLR')
-		# PLot PLSR results
+		# Plot PLSR results
 		plsr_handle, = axes[i].plot(t,plsr_pred[:,i],'-g',lw=0.5,alpha=0.5,label='PLSR')
 		# Plot GBR results
 		gbr_handle, = axes[i].plot(t,gbr_pred[:,i],'-r',lw=0.5,alpha=0.5,label='GBR')
