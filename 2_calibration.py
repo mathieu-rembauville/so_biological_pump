@@ -174,7 +174,7 @@ for i in species:
 	species_clean.append(spe)
 species_clean=np.array(species_clean)
 
-# Abbreviate species genus
+# Abbreviate genus name
 species_clean_abbr = np.empty(len(species_clean),dtype='<U42')
 for i in range(len(species_clean_abbr)):
 	words = species_clean[i].split(' ')
@@ -184,6 +184,8 @@ for i in range(len(species_clean_abbr)):
 		species_clean_abbr[i] = ' '.join(words)
 	else :
 		species_clean_abbr[i] = species_clean[i]
+	if species_clean[i] =='Thalassiothrix antarctica':
+		species_clean_abbr[i] = 'Tx. antarctica'
 	
 	
 #%% ===========================================================================
@@ -257,7 +259,7 @@ plt.savefig('fig/fig_03_diatom_species.pdf')
 
 
 #%% Select species > criterion % relative abundace
-species_clean=species_clean[diat_sel_percent]
+species_clean = species_clean[diat_sel_percent]
 species_clean_abbr = species_clean_abbr[diat_sel_percent]
 diat_core_full = diat_core
 diat_trap_full = diat_trap
@@ -290,7 +292,7 @@ sta_lab = np.array(['47S', '', '', '', 'MS2', '', '', '', '54S', '', '', '','P3'
 fig,ax = plt.subplots(1,3,figsize=(18/inch,18/inch))
 
 # Plot the diatom species and the POC and PIC:POC ratio
-#Define key species
+# Define key species for the sed trap plot
 key_species = np.hstack([diat_trap_full[:,species=='Azpeitia_tabularis'],
 diat_trap_full[:,species=='Nitzschia_bicapitata']+diat_trap_full[:,species=='Nitzschia_sicula'],
 diat_trap_full[:,species=='Pseudo-nitzschia_heimii']+diat_trap_full[:,species=='Pseudo-nitzschia_lineola']+diat_trap_full[:,species=='Pseudo-nitzschia_turgiduloides'],
@@ -313,7 +315,7 @@ start = 0
 for i in sta_list :
 	# select data
 	sel = (sta==i)
-	if i =='MS5':
+	if i =='MS5': # There is no winter data for MS5
 		y = start + np.arange(sum(sel)+1)
 		poc_var = np.hstack([poc[sel],np.nan])
 		pic_poc_var = np.hstack([pic_poc[sel],np.nan])
@@ -421,7 +423,7 @@ FA = FactorAnalyzer(n_factors=4,rotation='varimax').fit(X)
 data = np.vstack([species_clean,np.round(FA.loadings_.T,2)]).T
 np.savetxt('data/output/transfer_functions/FA_loadings.txt', data, delimiter=";", fmt="%s") 
 
-# Select final models explicitely (Table 4)
+# Select final MLR models explicitely (Table 4)
 group_names = ['g'+str(i+1) for i in range(X_transformed.shape[1])]
 df = pd.DataFrame(data=np.hstack([chem,X_transformed]),columns=np.hstack([['poc','pic_poc'],group_names]))
 chem_pred_mlr = np.empty(chem.shape)
@@ -440,7 +442,7 @@ chem_pred_mlr[:,1] = mlr2.predict()
 # Partial least square regression (PLSR)
 # =============================================================================
 
-plsr = PLSRegression(n_components=2) # keep n components accoring to the broken stick model
+plsr = PLSRegression(n_components=2) # keep n components accoring to the broken stick model (see below)
 plsr.fit(X, chem)
 chem_pred_plsr = plsr.predict(X)
 
@@ -475,9 +477,45 @@ handles, labels = ax.get_legend_handles_labels()
 ax.legend(handles[::-1],labels[::-1],frameon=False)
 plt.tight_layout()
 
-# Save figure
+# Save PLSR components figure
 plt.savefig('fig/fig_S2_PLSR_components.png',dpi=300)
 plt.savefig('fig/fig_S2_PLSR_components.pdf')
+
+# PLSR beta coefficients figure
+plsr.fit(X, StandardScaler().fit(chem).transform(chem))
+beta = plsr.coef_
+# save PLSR beta coefficients
+data_export = np.vstack([species_clean_abbr,np.round(beta,3)]).T.astype(str)
+np.savetxt('data/output/transfer_functions/PLSR_beta.txt',data_export,delimiter='\t',
+		   fmt='%s\t%s\t%s')
+fig,ax = plt.subplots(1,2,figsize=(18/inch,10/inch))
+plt.subplots_adjust(left=0.25,right=0.97,top=0.9,bottom=0.15,wspace=1.2)
+species_poc  = [x for _, x in sorted(zip(beta[0,:], species_clean_abbr))]
+beta_poc_sorted = np.sort(beta[0,:])
+species_pic_poc  = [x for _, x in sorted(zip(beta[1,:], species_clean_abbr))]
+beta_pic_poc_sorted = np.sort(beta[1,:])
+var = [beta_poc_sorted,beta_pic_poc_sorted]
+var_lab =['POC','PIC:POC']
+species_lab = [species_poc,species_pic_poc]
+lab = ['a','b']
+
+x = np.arange(len(species_clean_abbr))
+for i in [0,1]:
+	ax[i].barh(x,var[i],fc='lightgrey',ec='k',lw=0.5,height=0.75)
+	ax[i].axvline(0,color='k',lw=0.5)
+	ax[i].set_yticks(x)
+	ax[i].set_yticklabels(species_lab[i],fontstyle='italic')
+	ax[i].set_xlim([-.2,.2])
+	ax[i].set_ylim([-0.5,21.5])
+	ax[i].set_xlabel('$\\beta$ coefficient')
+	ax[i].set_title(var_lab[i],fontsize=8,fontweight='bold')
+	ax[i].annotate(lab[i],(-0.9,0.97),xycoords='axes fraction',fontweight='bold',fontsize='8')
+	ax[i].grid(axis='x')
+	ax[i].set_axisbelow(True)
+
+plt.savefig('fig/fig_S4_beta_PLSR.png',dpi=300)
+plt.savefig('fig/fig_S4_beta_PLSR.pdf')
+
 
 #%% ===========================================================================
 #  Gradient boosting regression (GBR)
@@ -485,7 +523,7 @@ plt.savefig('fig/fig_S2_PLSR_components.pdf')
 
 chem_pred_gbr = np.empty(chem.shape)
 
-# See below for the selection tree depth and number of estimation
+# See below for the selection tree depth (2) and number of estimation (30)
 gbr1 = GradientBoostingRegressor(max_depth=2, n_estimators=30)
 gbr2 = GradientBoostingRegressor(max_depth=2, n_estimators=30)
 
@@ -530,8 +568,8 @@ for i in [0,1]:
 	ax[i].annotate(lab[i],(-0.9,0.97),xycoords='axes fraction',fontweight='bold',fontsize='8')
 
 # Save figure
-plt.savefig('fig/fig_S4_GBR_features_importance.png',dpi=300)
-plt.savefig('fig/fig_S4_GBR_features_importance.pdf')
+plt.savefig('fig/fig_S5_GBR_features_importance.png',dpi=300)
+plt.savefig('fig/fig_S5_GBR_features_importance.pdf')
 
 
 #%% ===========================================================================
@@ -739,9 +777,9 @@ for i in range(len(rmse_mlr)):
 	df_test = pd.DataFrame(X_test,columns=group_names)
 	Y_pred = np.empty(Y_test.shape)
 	# Predict with MLR
-	mlr1 = smf.ols(formula='poc ~ g1 + g2+ g1*g3 + g1*g4 + I(g1**2) + I(g3**2) + I(g4**2)-g3-g4',data=df_train).fit()
+	mlr1 = smf.ols(formula='poc ~ g1 + g2 + g3 + g4',data=df_train).fit()
 	Y_pred[:,0] = mlr1.predict(df_test)
-	mlr2 = smf.ols(formula='pic_poc ~ g4 + g1*g2 - g1 - g2',data=df_train).fit()
+	mlr2 = smf.ols(formula='pic_poc ~ g1 + g2 + g3+ g4',data=df_train).fit()
 	Y_pred[:,1] = mlr2.predict(df_test)
 	# Store RMSE for each variable
 	for j in [0,1]:
